@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Allow access to device screen-width -->
+    <link rel="stylesheet" href="style.css"> <!-- link to CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Link to font-awesome for icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans%7CUbuntu" > <!--Link to google for fonts -->
+    <title> Assignment 1</title> <!--Give a title to the document page -->
+  </head>
+  <body>
+    <h1> Assignment 1</h1>
+    <div class="navbar"> <!-- Create navigation bar-->
+      <a href="index.html">Home</a>  <!-- Home page-->
+      <a class="leftBorder" href="terms.html">Terms</a> <!-- Terms page -->
+      <a class="leftBorder" href="jobs.html">Jobs</a> <!-- Jobs page -->
+      <a class="leftBorder" href="learn.html">Learn</a> <!-- Learning page -->
+      <a class="leftBorder" href="design.html">Design</a> <!-- Design page -->
+      <a class="leftBorder" href="log.html">Log</a> <!-- Log page -->
+    </div>
+    <div class="conclusion">
+      <img src="validatedpage1.jpg" alt="Screenshot of homepage validation">
+      <p>From this screenshot you can see that the homepage for my website has been successfully validated. However I found an odd issue where the validator says <i>"Bad value https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu for attribute href on element link: Illegal character in query: | is not allowed."</i> This was apparently because the | character is not allowed, but this was fixable by changing that character to the UTF8 code instead: %7C.</p>
+      <img src="validatedterms.jpg" alt="Screenshot of terms page validation">
+      <p> This page shows successful validation of my terms page</p>
+      <img src="validatedjobs.jpg" alt="Screenshot of jobs page validation">
+      <p> This page shows successful validation of my jobs page. </p>
+      <img src="validatedlearn.jpg" alt="Screenshot of learn page validation">
+      <p> This page shows successful validation of my learning page</p>
+      <img src="validateddesign.jpg" alt="Screenshot of design page validation">
+      <p> This page shows successful validation of my design page</p>
+      <img src="validatedlog.jpg" alt="Screenshot of my log page validation">
+      <p> This page shows successful validation of my log page</p>
+      <img src="validatedcss.jpg" alt="Screenshot of my CSS validation">
+      <p> This page shows successful validation of my CSS</p>
+      <p class="learninghtml">Whilst I've done HTML in GCSE but not A Level, learning it at a degree level was a big step up. I only learned it at a  very basic level and it feels completely different to learning or working in programming like I prefer to. Because of this I was initially discouraged with working in HTML and CSS, however after working with it for a while I found myself finding it enjoyable. It's still very different since you're solving a different kind of problem, and the programming is not quite the same however I found satisfaction in building a website which has a working layout and matches the vision I had planned. Because it was so different to what I am used to however I did struggle to start with and building my site was slow until I got the hang of how HTML and CSS worked. Because of this I found I had less time than planned to finish my website, and so I couldn't add some features or refine my website as much as I would have liked to if I had more time. However I'm confident that in my next assignment my next website will be far better than what I have created now, and I look forward to working on it, and I'm glad that I've had this experience and come to enjoy web development.  </p>
+    </div>
+    <footer class="footer"> <!-- footer box -->
+      <div class="contact"> <!-- box for contacting me -->
+        <label>Name</label>
+        <input class="field" name="name" type="text" placeholder="Enter your name"> <!--Name input -->
+        <label>Email</label>
+        <input class="field" name="email" type="text" placeholder="Enter your email"> <!-- Email input -->
+        <label>Message</label>
+        <textarea class="field" name="name" placeholder="Your message"></textarea> <!-- Message box -->
+        <input class="field" type="submit" value="Send"> <!-- Send email button -->
+      </div>
+      <div class="iconcontainer"> <!-- Box for icons -->
+        <a href="https://www.facebook.com/profile.php?id=100010884873116" class="fa fa-facebook"></a>  <!--Facebook link -->
+        <a href="https://www.youtube.com/channel/UCiqM7u2x6hBfnTU8uy2449Q" class="fa fa-youtube"></a> <!-- Youtube link -->
+      </div>
+    </footer>
+  </body>
+</html>
